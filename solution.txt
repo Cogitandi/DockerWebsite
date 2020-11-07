@@ -1,0 +1,7 @@
+a)Po rozpakowaniu zawartości folderu Kapica_zad1 należy użyc polecenia "tar -xzvf src.tar.gz"
+b)docker build -t lab3image .
+c)docker run --name lab3Container -d lab3image
+d)aplikacja jest uruchomiona automatycznie po uruchomieniu konterneta
+e)adres ip uruchomionej aplikacji możemy sprawdzić poleceniem: docker inspect lab3Container | grep "IPAddress" 
+
+
